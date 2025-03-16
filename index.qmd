@@ -1,0 +1,46 @@
+---
+format:
+  html:
+    toc: false
+    page-width: 100%
+    body-width: 90%
+    text-width: 100%
+    sidebar-width: 100px
+    page-sidebar: 10%
+    page-margin: 10%
+    margin-width: 5%
+    self-contained: true
+    #toc-title: "W rozdziale"
+    #toc-location: body
+    fontsize: 1.1em
+    linestretch: 1.5
+    theme: lumen
+    page-layout: full
+    style: style.css
+    extra_css: |
+      body {
+        font-family: arial;
+        font-size: smaller;
+        text-align: justify;
+      }
+      
+page-navigation: true
+---
+
+<br>
+
+# ***SmartLab**. Zaprojektuj narzędzia Buisness Inteligence.*
+
+![](logo.png){fig-align="right" width="258"}
+
+
+Współczesne organizacje potrzebują narzędzi, które pozwalają na **sprawne przetwarzanie, wizualizację i raportowanie danych**. Dzięki **Shiny, Quarto i Markdown**, możliwe jest przekształcenie statycznych analiz w **interaktywne aplikacje, dynamiczne raporty i automatycznie generowane dokumenty**, które dostosowują się do zmieniających się potrzeb analitycznych.
+
+
+-   *Aplikacje*
+-   *Dashboardy*
+-   *Interaktywne dokumenty*
+
+### ***Przetestuj nasze narzędzia***
+
+Zapoznaj się z możliwościami **Shiny, Quarto i Markdown** i sprawdź, jak mogą one **zautomatyzować i usprawnić Twoją pracę**.

@@ -1,0 +1,25 @@
+# **_Nowoczesne narzędzia analityczne i raportowe_**  
+
+<br>
+
+## **Efektywna analiza danych i automatyczne raportowanie**  
+
+Współczesne organizacje potrzebują narzędzi, które pozwalają na **sprawne przetwarzanie, wizualizację i raportowanie danych**. Dzięki **Shiny, Quarto i Markdown**, możliwe jest przekształcenie statycznych analiz w **interaktywne aplikacje, dynamiczne raporty i automatycznie generowane dokumenty**, które dostosowują się do zmieniających się potrzeb analitycznych.  
+
+<br>
+
+## **Co znajdziesz na tej stronie?**  
+
+- **Interaktywne aplikacje webowe** – tworzenie dashboardów i narzędzi analitycznych w Shiny.  
+- **Automatyczne raportowanie i publikacje** – dynamiczne raporty i dokumenty w Quarto i Markdown.  
+- **Integracja z danymi** – łączenie analiz z bazami danych, API i systemami BI.  
+- **Reproducowalność analiz** – dokumentacja, publikacje naukowe i raporty generowane automatycznie.  
+
+<br>
+
+
+## **Przetestuj nasze narzędzia**  
+
+Zapoznaj się z możliwościami **Shiny, Quarto i Markdown** i sprawdź, jak mogą one **zautomatyzować i usprawnić Twoją pracę**.  
+
+**Rozpocznij eksplorację – wybierz interesujący Cię obszar i dowiedz się więcej.**
