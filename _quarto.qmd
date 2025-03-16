@@ -1,0 +1,168 @@
+project:
+  type: website
+
+website:
+  reader-mode: true
+  page-navigation: true
+  title: "SmartLab"
+  search: 
+    location: sidebar
+    type: textbox 
+
+  navbar: 
+    foreground: "#FFFFFF"
+    background: "#023540"
+    logo: logo.png
+    left:
+      - text: "Intro"
+        href: index.qmd
+      - text: "Aplikacje"
+        menu:
+          - text: "Wprowadzdnie do shiny"
+            href: aplikacje.qmd
+          - text: "Tworzenie aplikacji"
+            href: aplikacje_tworzenie.qmd
+          - text: "Zgłoś aplikację"
+            href: aplikacje_zglos.qmd
+          - text: "MetaAnalizer"
+            href: "http://shiny.aotm.local/pzamaro/meta_analizer/"
+          - text: "SurvivalAnalizer"
+            href: "http://shiny.aotm.local/pzamaro/survival_analizer/"
+          - text: "Kalkulator epidemiologiczny"
+            href: "http://shiny.aotm.local/pzamaro/kalkulator_epidemiologiczny/"
+
+      - text: "Dynamiczne raporty"
+        menu:
+          - text: "Wprowadzenie do markdown"
+            href: markdown.qmd
+          - text: "Raporty HTML"
+            href: markdown_html.qmd
+          - text: "Przykładowy raport z analizy przeżycia"
+            href: markdown_param.qmd
+      - text: "Projekty analityczne"
+        menu:
+          - text: "Wprowadzenie do Quarto"
+            href: quarto.qmd
+          - text: "e-booki"
+            href: "http://rstudio.aotm.local/files/ShinyApps/ebook/statystyka/docs/index.html"
+          - text: "Strony internetowe"
+            href: quarto.qmd
+      - text: "Edukacja"
+        menu:
+          - text: "Wprowadzenie"
+            href: EDUKACJA/wprowadzenie.qmd
+          - text: "Dane i ich analiza"
+            href: EDUKACJA/dane.qmd
+          - text: "Wizualizacja danych"
+            href: EDUKACJA/wizualizacja.qmd
+          - text: "Miary statystyczne"
+            href: EDUKACJA/miary.qmd
+          - text: "Testy statystyczne"
+            href: EDUKACJA/testy.qmd
+
+
+  sidebar: 
+  - title: "Abstrakt"
+    style: "floating"
+    pinned: TRUE
+    foregroundcolor: "#023540"
+    search: true
+    collapse-level: 1 
+    logo: logo.png
+    contents:
+      # - index.qmd
+      #- produkty.qmd
+      - section: "Aplikacje"
+        contents:
+          - aplikacje.qmd
+          - aplikacje_tworzenie.qmd
+          - aplikacje_zglos.qmd
+          - section: "Dostępne aplikacje"   # Podsekcja
+            contents:
+              - text: "SurvivalAnalizer"
+                href: "http://shiny.aotm.local/pzamaro/meta_analizer/"
+              - text: "*MetaAnalizer*"
+                href: "http://shiny.aotm.local/pzamaro/survival_analizer/"
+              - text: "*Kalkulator epidemiologiczny*"
+                href: "http://shiny.aotm.local/pzamaro/kalkulator_epidemiologiczny/"
+
+
+        text: "Dashboardy"
+      - section: "Dashboardy"
+        contents:
+          - dashboardy.qmd
+        text: ""
+      - section: "Dynamiczne raporty"
+        contents:
+          - markdown.qmd
+          - markdown_html.qmd
+          - quarto_shiny.qmd
+      - section: "Interaktywne projekty analityczne"
+        contents:
+          - quarto.qmd
+#          - quarto_shiny.qmd
+          - quarto_ebook.qmd   
+          - quarto_website.qmd
+
+      #- wspolpraca.qmd
+
+          
+  - title: "Wirtualne narzędzia analityczne"
+    style: "docked"
+    contents:
+      - APLIKACJE/aplikacje.qmd
+      - APLIKACJE/survival_analizer.qmd
+      - APLIKACJE/meta_analizer.qmd
+          
+  - title: "Edukacja"
+    style: "docked"
+    contents:
+      - EDUKACJA/wprowadzenie.qmd
+      - EDUKACJA/dane.qmd
+      - EDUKACJA/wizualizacja.qmd
+      - EDUKACJA/miary.qmd
+      - EDUKACJA/testy.qmd
+
+          
+  page-footer:
+    right: "p.zamaro@aotm.gov.pl"
+    left: "Agencja Oceny Technologii Medycznych i Taryfikacji 2025"
+    
+geometry:
+  - left=.10in
+  - textwidth=10in
+  - marginparsep=.5in
+  - marginparwidth=10in
+  
+format: 
+  html: 
+    page-width: 100%
+    body-width: 80%
+    text-width: 100%
+    sidebar-width: 100px
+    page-sidebar: 10%
+    page-margin: 10%
+    margin-width: 5%
+    toc: true
+    toc-title: "Na stronie"
+    theme:
+      light: yeti
+      dark: solar    
+    fontsize: 1.0em
+    linestretch: 1.7
+    page-layout: article
+    foregroundcolor: "#023540"
+    mainfont: system-ui
+    minimal: true
+    smooth-scroll: true
+    css: styles.css
+    bibliography: references.bib
+    
+
+comments:
+  hypothesis: true
+
+
+lang: pl
+  
+editor: visual
